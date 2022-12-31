@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 import nftranksLogo from '../assets/NFT_Ranks_Logo.svg'
 
 const style = {
@@ -15,21 +16,33 @@ const style = {
 
 const Header = () => {
   return (
-    <div className='flex'>
-      <div>
-        <img className=' w-140 h-auto cursor-pointer'
-        src={nftranksLogo}
-        alt='nftranks Logo'
-        />
-      </div>
+    <div className='flex justify-betweenclear'>
+        <a href='/'>
+          <img className=' w-140 h-auto cursor-pointer'
+          src={nftranksLogo}
+          alt='nftranks Logo'
+          />
+        </a>
       <ul className='text-white flex'>
-        <li>Ranking</li>
-        <li>About Us</li>
-        <li>Projects</li>
+      <li>
+          <Link to = "/"></Link>
+        </li>
+        <li>
+          <Link to = "/ranking">Ranking</Link>
+        </li>
+        <li>
+          <Link to = "/about">About us</Link>
+        </li>
+        <li>
+          <Link Link to = "/project">Projects</Link>
+        </li>
+        <li>
+          <button className='text-white'>
+            Connect Wallet
+          </button>
+        </li>
       </ul>
-      <button className='text-white'>
-        Connect Wallet
-      </button>
+      <Outlet />
     </div>
   )
 }

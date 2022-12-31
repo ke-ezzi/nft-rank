@@ -6,8 +6,8 @@ import image_4 from'../assets/Diamond 2.svg'
 
 const Home = () => {
   return (
-    <div>
-    <div className='text-white 2xl:max-w-7xl lg:max-w-4xl my-20 mx-auto'>
+    <div className="w-full">
+    <div className=' text-white 2xl:max-w-7xl lg:max-w-4xl my-20 mx-auto'>
       <div className='text-center pt-20 pb-7'>
         <h1 className='md:text-6xl sm:text-5xl text-4xl font-medium'>Track Your Position</h1>
         <h1 className='md:text-6xl sm:text-5xl text-4xl font-medium'>in NFT World</h1>
@@ -24,7 +24,7 @@ const Home = () => {
         CHECK MY RANK
       </button>
 
-    <div className='max-w-[1420px] my-60 mx-auto grid md:grid-cols-2 place-items-center'>
+    <div className='my-60 mx-auto grid md:grid-cols-2 place-items-center'>
       <div>
         <div className='md:text-5xl sm:text-4xl text-3xl font-medium pb-10'>
         <h2>Welcome</h2>
@@ -47,7 +47,7 @@ const Home = () => {
     </div>
 
 
-    <div className='max-w-[1420px] mx-auto my-60 '>
+    <div className='mx-auto my-60 '>
       <div className='flex flex-col justify-center items-center' >
         <h2 className='
           md:text-5xl sm:text-4xl text-3xl font-medium m-10
@@ -66,7 +66,7 @@ const Home = () => {
     </div>
 
 
-    <div className='max-w-[1420px] mx-auto grid md:grid-cols-2 place-items-center my-60'>
+    <div className='mx-auto grid md:grid-cols-2 place-items-center my-60'>
     <img 
       className='w-[1000px] h-auto'
       src={image_3}
@@ -88,7 +88,7 @@ const Home = () => {
     </div>
 
     
-    <div className='max-w-[1420px] mx-auto grid md:grid-cols-2'>
+    <div className='mx-auto grid md:grid-cols-2'>
       <div>
       <h2 className='md:text-5xl sm:text-4xl text-3xl font-medium my-10'>Shine Like a Diamond</h2>
       <p className='box border md:text-xl sm:text-0.5xl border-none  mr-20 w-[474px] h-auto'>
