@@ -7,22 +7,25 @@ import image_4 from'../assets/Diamond 2.svg'
 const Home = () => {
   return (
     <div className="w-full">
+      
     <div className=' text-white 2xl:max-w-7xl lg:max-w-4xl my-20 mx-auto'>
-      <div className='text-center pt-20 pb-7'>
+      <div className='my-60'>
+        <div className='text-center pt-20 pb-7'>
         <h1 className='md:text-6xl sm:text-5xl text-4xl font-medium'>Track Your Position</h1>
         <h1 className='md:text-6xl sm:text-5xl text-4xl font-medium'>in NFT World</h1>
       </div>
-      <div className='text-center '>
-        <p className='md:text-2xl sm:text-xl font-regular'> Get accurate data and</p>
-        <p className='md:text-2xl sm:text-xl text-xl'>build reliable whitelists with NFT Ranks</p>
+        <div className='text-center '>
+          <p className='md:text-2xl sm:text-xl font-regular'> Get accurate data and</p>
+          <p className='md:text-2xl sm:text-xl text-xl'>build reliable whitelists with NFT Ranks</p>
+        </div>
+        <button className='
+          bg-[#D6F866] rounded-md font-semibold 
+          md:text-xl sm:text-xl text-0.5xl flex
+          my-20 mx-auto px-8 py-3 text-black
+        '>
+          CHECK MY RANK
+        </button>
       </div>
-      <button className='
-        bg-[#D6F866] rounded-md font-semibold 
-        md:text-xl sm:text-xl text-0.5xl flex
-        my-20 mx-auto px-8 py-3 text-black
-      '>
-        CHECK MY RANK
-      </button>
 
     <div className='my-60 mx-auto grid md:grid-cols-2 place-items-center'>
       <div>

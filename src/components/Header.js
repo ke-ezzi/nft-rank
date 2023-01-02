@@ -16,7 +16,7 @@ const style = {
 
 const Header = () => {
   return (
-    <div className='flex justify-betweenclear'>
+    <div className='flex m-4'>
         <a href='/'>
           <img className=' w-140 h-auto cursor-pointer'
           src={nftranksLogo}
@@ -35,6 +35,9 @@ const Header = () => {
         </li>
         <li>
           <Link Link to = "/project">Projects</Link>
+        </li>
+        <li>
+          <Link Link to = "/portfolio">Portfolio</Link>
         </li>
         <li>
           <button className='text-white'>

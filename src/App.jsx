@@ -5,6 +5,8 @@ import Home from "./pages/Home"
 import Rank from "./pages/Rank"
 import About from "./pages/About"
 import Project from "./pages/Project"
+import Portfolio from "./pages/Portfolio"
+
 
 
 const App = () => {
@@ -16,6 +18,7 @@ const App = () => {
           <Route path ="/ranking" element = {<Rank />}></Route>
           <Route path ="/about" element = {<About/>}></Route>
           <Route path ="/project" element = {<Project />}></Route>
+          <Route path ="/Portfolio" element = {<Portfolio />}></Route>
         </Routes>
     </div>
   )
